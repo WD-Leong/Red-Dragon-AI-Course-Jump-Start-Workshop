@@ -1,10 +1,10 @@
-## Red Dragon AI Course Assignment
-### By Leong Wei Deng
+# Red Dragon AI Jumpstart Workshop Course Assignment
+# March 2020
 
-### Introduction
+## Introduction
 The Deep Learning overview course offered by Red Dragon covered basic topics including Feed-Forward Neural Networks, as well as the basics of sequence and Convolutional Neural Network (CNN) architectures. As part of the course requirements, an assignment has to be submitted to demonstrate the attendees' understanding of the content covered during the course.
 
-Inspired by Karpathy's blog post (# Inspired by Karpathy's blog post (http://karpathy.github.io/2015/10/25/selfie/), my objective is to train a CNN model to predict the score indicating how popular a selfie image would be. For this project, the CNN model incorporates residual connections to allow the gradients to "flow" across the deep network. This "flow" arises from the general form of the Residual Network (ResNet), which is given by
+Inspired by [Karpathy's blog post](http://karpathy.github.io/2015/10/25/selfie/), my objective is to train a CNN model to predict the score indicating how popular a selfie image would be. For this project, the CNN model incorporates residual connections to allow the gradients to "flow" across the deep network. This "flow" arises from the general form of the Residual Network (ResNet), which is given by
 \begin{equation}
 y = z + f(z),
 \end{equation}
